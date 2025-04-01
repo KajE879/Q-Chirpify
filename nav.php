@@ -15,5 +15,6 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Settings</a></li>
             <li><a href="#">Profile</a></li>
+            <li><a href="#">Post</a></li>
         </ul>
     </nav>
