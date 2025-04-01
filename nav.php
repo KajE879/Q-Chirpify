@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="main.css">
     <title>Chirpify</title>
 </head>
+<?PHP session_start(); ?>
 <body>
     <nav>
         <a href="index.php">
