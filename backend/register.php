@@ -1,6 +1,6 @@
 <?php 
 
-require "dbconn.php";
+require "../database/dbconn.php";
 
 $hash = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
@@ -11,4 +11,4 @@ $insert_user->bindParam(":email", $_POST['email']);
 $insert_user->bindParam(":password", $hash);
 $insert_user->execute();
 
-header("location: index.php");
+header("location: ../inlog-form.php");
