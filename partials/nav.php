@@ -17,8 +17,8 @@
         </a>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="settings.php">Settings</a></li>
             <li><a href="profile.php">Profile</a></li>
+            <li><a href="policy.html">Privacy Policy</a></li>
             <button class="post-button" onclick="openPopup()">Post</button>
         </ul>
     </nav>
