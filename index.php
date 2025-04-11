@@ -21,7 +21,7 @@ $messages = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <?php if ($msg['user_id'] == $_SESSION['user_id']): ?>
                 <form method="POST" action="backend/delete.php" style="margin-top: 5px;">
                     <input type="hidden" name="message_id" value="<?= $msg['id']; ?>">
-                    <button type="submit">Verwijderen</button>
+                    <button class="delete" type="submit">Delete</button>
                 </form>
                 <?php endif; ?>
             </div>
