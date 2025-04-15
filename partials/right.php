@@ -1,6 +1,12 @@
     <div class="right">
         <div class="username">
-            <p>Username: <?php echo $_SESSION['username']?></p>
+        <?php
+            if (isset($_SESSION['username'])) {
+                echo '<p>Username: ' . $_SESSION['username'] . '</p>';
+            } else {
+                echo '<a href="inlog-form.php">Log nu in!</a>';
+            }
+            ?>
         </div>
     </div>
     </body>
